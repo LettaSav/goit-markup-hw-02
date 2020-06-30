@@ -1,0 +1,55 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: var(--title-text-color);
+}
+.bluesidelogo {
+  color: var(--accent-color);
+}
+/* Site Nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Contacts */
+.contacts {
+  color: var(--primary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--background-color);
+}
+.button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+/* Sections */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Feaures */
+.features .title {
+  color: var(--title-text-color);
+}
+/* What we are doing */
+.picturetext {
+  color: var(--background-color);
+}
