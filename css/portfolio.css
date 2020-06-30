@@ -1,0 +1,21 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --portfolio-color: #f5f4fa;
+}
+/* Portfolio filter */
+.section .button {
+  color: var(--title-text-color);
+  background-color: var(--portfolio-color);
+}
+.section .button:hover,
+.section .button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+/* Portfolio */
+.section-title {
+  color: var(--title-text-color);
+}
