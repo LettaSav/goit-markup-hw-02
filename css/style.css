@@ -25,6 +25,9 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .linkcurrent {
+  color: var(--accent-color);
+}
 /* Contacts */
 .contacts {
   color: var(--primary-text-color);
