@@ -4,55 +4,78 @@
   --accent-color: #2196f3;
   --background-color: #ffffff;
 }
-body {
-  color: var(--primary-text-color);
-  background-color: var(--background-color);
-}
-ul {
-  list-style: none;
-}
-.logo {
-  color: var(--title-text-color);
-}
-.bluesidelogo {
-  color: var(--accent-color);
-}
-/* Site Nav */
-.site-nav .link {
-  color: var(--title-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .linkcurrent {
-  color: var(--accent-color);
-}
-/* Contacts */
-.contacts {
-  color: var(--primary-text-color);
-}
-.contacts:hover,
-.contacts:focus {
-  color: var(--accent-color);
-}
 /* Hero */
+.hero {
+  letter-spacing: 0.06em;
+}
 .hero-title {
   color: var(--background-color);
+  background-color: #2f303a;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
 }
 .button {
   color: var(--background-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
 }
 /* Sections */
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
-/* Feaures */
+/* Features */
 .features .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.features > li > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 /* What we are doing */
 .picturetext {
   color: var(--background-color);
+  background-color: #2f303a;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* Our team */
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.nametitle {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }

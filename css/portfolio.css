@@ -9,6 +9,11 @@
 .section .button {
   color: var(--title-text-color);
   background-color: var(--portfolio-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .section .button:hover,
 .section .button:focus {
@@ -16,6 +21,20 @@
   background-color: var(--accent-color);
 }
 /* Portfolio */
+.works {
+  text-decoration: none;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+}
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
