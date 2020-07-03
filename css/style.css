@@ -31,8 +31,9 @@ ul {
 .bluesidelogo {
   color: var(--accent-color);
 }
-/* Site Nav */
-.site-nav .link {
+/* Site Nav, Contacts */
+.site-nav .link,
+.contacts {
   color: var(--title-text-color);
 
   letter-spacing: 0.02em;
@@ -42,27 +43,19 @@ ul {
   text-decoration: none;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-color);
 }
 .site-nav .current {
   color: var(--accent-color);
   text-decoration: none;
 }
-/* Contacts */
 .contacts {
   color: var(--primary-text-color);
+}
 
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-}
-.contacts:hover,
-.contacts:focus {
-  color: var(--accent-color);
-}
 /* Hero */
 .hero {
   letter-spacing: 0.06em;
@@ -88,11 +81,6 @@ ul {
   text-align: center;
 }
 /* Sections */
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-}
 .section-title {
   color: var(--title-text-color);
 
@@ -101,8 +89,9 @@ h2 {
   line-height: 1.16;
   text-align: center;
 }
-/* Features */
-.features .title {
+/* Features, What we are doing */
+.features .title,
+.picturetext {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -114,14 +103,10 @@ h2 {
   font-size: 14px;
   line-height: 1.7;
 }
-/* What we are doing */
 .picturetext {
   color: var(--background-color);
   background-color: #2f303a;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-transform: uppercase;
 }
 /* Our team */
@@ -138,14 +123,13 @@ h2 {
   line-height: 19px;
 }
 /* Footer */
-.whitelogo {
+.whitelogo,
+.addresslink,
+.footer-sent {
   color: var(--background-color);
   background-color: #2f303a;
 }
 .addresslink {
-  color: var(--background-color);
-  background-color: #2f303a;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -156,9 +140,6 @@ h2 {
   background-color: #2f303a;
 }
 .footer-sent {
-  color: var(--background-color);
-  background-color: #2f303a;
-
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -187,7 +168,7 @@ h2 {
 .works {
   text-decoration: none;
 }
-p {
+section-descrp {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
