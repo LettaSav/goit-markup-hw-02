@@ -163,7 +163,7 @@ ul {
 /* Portfolio filter */
 .section .button {
   color: var(--title-text-color);
-  background-color: var(--portfolio-color);
+  background-color: var(--backgroud-our-team);
 
   font-weight: 500;
   font-size: 16px;
