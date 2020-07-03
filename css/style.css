@@ -183,6 +183,7 @@ section-descrp {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
+  color: var(--primary-text-color);
 }
 .portfolio-title {
   color: var(--title-text-color);
