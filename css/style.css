@@ -28,6 +28,7 @@ ul {
   color: var(--title-text-color);
 
   font-family: var(--secondary-font);
+  font-style: normal;
   letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 26px;
@@ -36,6 +37,7 @@ ul {
 }
 .bluesidelogo {
   color: var(--accent-color);
+  font-style: normal;
 }
 /* Site Nav, Contacts */
 .site-nav .link,
@@ -63,17 +65,16 @@ ul {
 }
 
 /* Hero */
-.hero {
-  letter-spacing: 0.06em;
-  font-family: var(--secondary-font);
-}
+
 .hero-title {
   color: var(--background-color);
   background-color: #2f303a;
 
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -81,6 +82,8 @@ ul {
   color: var(--background-color);
   background-color: var(--accent-color);
 
+  font-family: var(--main-font);
+  letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -104,6 +107,9 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+.title {
+  text-transform: uppercase;
 }
 .features > li > p {
   font-weight: 400;
@@ -140,6 +146,10 @@ ul {
 .addresslink,
 .footer-sent {
   color: var(--background-color);
+  font-style: normal;
+}
+.address {
+  font-style: normal;
 }
 .addresslink {
   font-weight: 400;
