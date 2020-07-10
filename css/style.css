@@ -8,6 +8,14 @@
   --backgroud-our-team: #f5f4fa;
   --fotter-color: #2f303a;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*: :before,
+*: :after {
+  box-sizing: inherit;
+}
 body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
@@ -16,6 +24,9 @@ body {
   letter-spacing: 0.03em;
 }
 ul {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
   font-family: var(--main-font);
 }
@@ -67,6 +78,8 @@ ul {
 /* Hero */
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--background-color);
   background-color: #2f303a;
 
@@ -79,8 +92,17 @@ ul {
   text-transform: uppercase;
 }
 .hero-button {
+  display: inline-block;
+  min-width: 50px;
+  margin-bottom: 294px;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+
   color: var(--background-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
 
   font-family: var(--main-font);
   letter-spacing: 0.06em;
@@ -93,13 +115,19 @@ ul {
 /* Sections */
 .section-title {
   color: var(--title-text-color);
-
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 /* Features, What we are doing */
+.features-text {
+  margin-bottom: 94px;
+  width: 270px;
+  height: 75px;
+}
 .features .title,
 .picturetext {
   color: var(--title-text-color);
@@ -109,6 +137,9 @@ ul {
   line-height: 1.14;
 }
 .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   text-transform: uppercase;
 }
 .features > li > p {
