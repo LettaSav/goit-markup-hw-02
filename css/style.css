@@ -158,11 +158,17 @@ ul {
   background-color: var(--backgroud-our-team);
 }
 .profession {
+  margin-top: 0;
+  margin-bottom: 16px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }
 .nametitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -172,6 +178,10 @@ ul {
 /* Footer */
 .footer {
   background-color: var(--fotter-color);
+}
+.fotter-logo {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .whitelogo,
 .addresslink,
@@ -183,6 +193,9 @@ ul {
   font-style: normal;
 }
 .addresslink {
+  margin-top: 0;
+  margin-bottom: 9px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -190,6 +203,10 @@ ul {
 }
 .addresscolor {
   color: rgba(255, 255, 255, 0.6);
+}
+.contacts {
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 .footer-sent {
   text-transform: uppercase;
@@ -216,17 +233,33 @@ ul {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
+.portfolio-button {
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 6px, 22px;
+}
 /* Portfolio */
+.portfolio-section-style {
+  padding-top: 93px;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+}
 .works {
   text-decoration: none;
 }
 .section-descrp {
+  margin-top: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   color: var(--primary-text-color);
 }
 .portfolio-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
   color: var(--title-text-color);
 
   font-weight: 700;
