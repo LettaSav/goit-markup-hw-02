@@ -29,6 +29,9 @@ ul {
   list-style: none;
   font-family: var(--main-font);
 }
+img{
+ display: block;
+}
 .container{
   width: 1200px;
   padding-right: 15px;
@@ -66,16 +69,19 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
  
 }
 .site-nav {
   display: flex;
   margin-left: 85px;
 }
-/* .site-nav li {
+.link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-} */
+} 
 
 .site-nav .current {
   color: var(--accent-color);
@@ -114,8 +120,6 @@ ul {
 
 /* Hero */
 .hero {
-  height: 600px;
-  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -159,7 +163,7 @@ ul {
 .section-title {
   color: var(--title-text-color);
   margin-top: 0;
-  margin-left: 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -177,11 +181,10 @@ ul {
   margin-left: 30px;
 }
 .features-text {
+  margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  width: 270px;
-  height: 75px;
-  
+  width: 280px;
 }
 .features .title,
 .picturetext {
@@ -191,6 +194,9 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+.picturetext{
+  margin-bottom: 0px;
 }
 .title {
   margin-top: 0;
@@ -272,13 +278,19 @@ ul {
 }
 /* Footer */
 .footer {
+  
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--fotter-color);
 }
+
 .fotter-logo {
+  display: flex;
   margin-top: 0;
   margin-bottom: 20px;
+}
+ .footer .container{
+display:flex
 }
 .whitelogo,
 .addresslink,
@@ -306,6 +318,7 @@ ul {
   margin-bottom: 9px;
 }
 .footer-sent {
+  display: flex;
   align-items: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -313,7 +326,7 @@ ul {
   line-height: 1.14;
 }
 .footer-join-us{
- display: flex;
+ display: flex  ;
 }
 .social-network {
   text-decoration: none;
